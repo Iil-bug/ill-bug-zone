@@ -4,7 +4,7 @@
     box-sizing:border-box;
 }
 
-.box{
+.box1{
     border: 5px ridge ;
     padding: 10px;
     margin:auto;
@@ -13,7 +13,7 @@
 
 }
 
-.box div{
+.box1 div{
     
     padding: 10px;
     text-align:center;
@@ -21,3 +21,11 @@
 .page::before {
     content: ".:*~*:._.:*~*:._.:*~*:.";
   }
+
+
+.border{
+    padding:30px;
+    margin:auto;
+   text-align:center;
+
+}
