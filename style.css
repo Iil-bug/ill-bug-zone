@@ -1,0 +1,23 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.box{
+    border: 5px ridge ;
+    padding: 10px;
+    margin:auto;
+    margin-top:30px;
+    width:200px
+
+}
+
+.box div{
+    
+    padding: 10px;
+    text-align:center;
+}
+.page::before {
+    content: ".:*~*:._.:*~*:._.:*~*:.";
+  }
