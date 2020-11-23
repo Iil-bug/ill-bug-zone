@@ -3,16 +3,28 @@
     padding:0;
     box-sizing:border-box;
 }
+.container {
+    border: 2px ridge black;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   padding:10px;
+  }
 
 .box1{
     border: 5px ridge ;
     padding: 10px;
     margin:auto;
     margin-top:30px;
+    margin-bottom:30px;
     width:200px
 
 }
 
+.helix{
+    text-align:center;
+}
 .box1 div{
     
     padding: 10px;
