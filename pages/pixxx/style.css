@@ -1,0 +1,78 @@
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 50px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    
+  }
+
+  @keyframes gradient{
+      0%{
+        background-image: repeating-radial-gradient(chartreuse,black, green);
+       }
+       10%{
+        background-image: repeating-radial-gradient(crimson,white,cyan ,fuchsia);
+       }
+       20%{
+        background-image: repeating-radial-gradient(gold,greenyellow, indigo,orangered);
+       }
+       30%{
+        background-image: repeating-radial-gradient(red,springgreen,orchid,magenta);
+       }
+       40%{
+        background-image: repeating-radial-gradient(salmon,forestgreen,lime,white,black);
+       }
+       50%{
+        background-image: repeating-radial-gradient(blue,aqua,  purple);
+       }
+       60%{
+        background-image: repeating-radial-gradient(mediumspringgreen,orange,black,lime);
+       }
+       70%{
+        background-image: repeating-radial-gradient(olive,orangered,lime,red,white);
+       }
+       80%{
+        background-image: repeating-radial-gradient(magenta,greenyellow,darkviolet,gold);
+       }
+       90%{
+        background-image: repeating-radial-gradient(white,darkorange,cyan,blueviolet);
+       }
+       100%{
+        background-image: repeating-radial-gradient(white,black,white,black,white,black);
+       }
+
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    display: block;
+    width: 80%;
+    animation-name: gradient;
+    animation-duration: .5s;
+    animation-iteration-count: infinite;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: bottom;
+    font-size: 400px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color:chartreuse;
+    text-decoration: none;
+    cursor: pointer;
+  }
