@@ -76,3 +76,10 @@
     text-decoration: none;
     cursor: pointer;
   }
+
+  p{
+    color:lime;
+}
+html{
+    background-color: black;
+}
