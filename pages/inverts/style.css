@@ -1,12 +1,14 @@
 html{
     background-color:black;
+    background-image: url(/pages/inverts/images/4M4u.gif);
     display:flex;
     justify-content:center;
     text-align:center;
 }
 
 .post{
-    margin:10px;
+    background-color: black;
+    margin:50px;
     padding:15px;
     border:lime 5px ridge;
     color:chartreuse;
